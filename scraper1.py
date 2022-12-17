@@ -2,12 +2,10 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-#price_air  = []
-#air_title=[]
-#specefication=[]
-i=[]
-j=[]
-x=[]
+price_air  = []
+air_title=[]
+specefication=[]
+
 
 result = requests.get("https://btech.com/ar/major-domestic-appliances/air-conditioning.html")
 src = result.content
